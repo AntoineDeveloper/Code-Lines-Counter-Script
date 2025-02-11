@@ -1,0 +1,1 @@
+git ls-files '*.js' '*.ejs' '*.css' '*.html' '*.bat' | grep -v '^node_modules/' | grep -v '^public/libraries/' | xargs wc -l
